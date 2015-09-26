@@ -45,7 +45,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ##    is in the cache (of the environment in which the caclulations are 
 ##    being carried out), then it outputs the message: 'getting cached data'
 ##    and gives as output the cached value of xInv.
-## 2. If xInv is not in the cache, then it calculates with solve(x$get()), 
+## 2. If xInv is not in the cache, then it calculates xInv with solve(x$get()), 
 ##    caches xInv just calculated using x$setxInv(xInv), and then gives
 ##    the calculated xInv as output. 
 
