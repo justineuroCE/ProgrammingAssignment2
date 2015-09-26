@@ -20,7 +20,7 @@
 ## 1.  set the value of the matrix (labelled 'set' in list)
 ## 2.  get the value of the matrix (labeled 'get' in list)
 ## 3.  set the value of the inverse matix (labelled 'setxInv' in list)
-## 4.  get the value of the inversematrix (lablled 'getxInv' in list)
+## 4.  get the value of the inversematrix (labelled 'getxInv' in list)
 ##
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -40,11 +40,11 @@ makeCacheMatrix <- function(x = matrix()) {
 ## The cacheSolve function below is similar to the cachemean function in 
 ## Example: Caching the Mean of a Vector (see README.md of Assignment 2).
 ## It takes as input the list output (processed vector) from makeCacheMatrix.  
-## Then it It calculates the inverse of the invertible square matrix that served 
-## as input fot makeCacheMatrix in the following manner:
+## Then it calculates the inverse of the invertible square matrix that served 
+## as input for makeCacheMatrix in the following manner:
 ##
 ## 1. If the inverse matrix of x, xInv, has already been calculated and 
-##    is in the cache (of the environment in which the caclulations are 
+##    is in the cache (of the environment in which the calculations are 
 ##    being carried out), then it outputs the message: 'getting cached data'
 ##    and gives as output the cached value of xInv.
 ## 2. If xInv is not in the cache, then it calculates xInv with solve(x$get()), 
