@@ -37,10 +37,12 @@ makeCacheMatrix <- function(x = matrix()) {
                  getxInv = getxInv)
 	}
 
-## The cacheSolve function below takes as input the list output (processed vector)
-## from makeCacheMatrix.  It calculates the inverse of the invertible
-## square matrix that served as input fot makeCacheMatrix in the following
-## manner:
+## The cacheSolve function below is similar to the cachemean function in 
+## Example: Caching the Mean of a Vector (see README.md of Assignment 2).
+## It takes as input the list output (processed vector) from makeCacheMatrix.  
+## Then it It calculates the inverse of the invertible square matrix that served 
+## as input fot makeCacheMatrix in the following manner:
+##
 ## 1. If the inverse matrix of x, xInv, has already been calculated and 
 ##    is in the cache (of the environment in which the caclulations are 
 ##    being carried out), then it outputs the message: 'getting cached data'
