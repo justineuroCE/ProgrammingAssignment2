@@ -17,7 +17,7 @@
 ## output a list containing four functions, one each for the following four 
 ## tasks:
 ## 
-## 1.  set the value of the matrix labelled 'set' in list)
+## 1.  set the value of the matrix (labelled 'set' in list)
 ## 2.  get the value of the matrix (labeled 'get' in list)
 ## 3.  set the value of the inverse matix (labelled 'setxInv' in list)
 ## 4.  get the value of the inversematrix (lablled 'getxInv' in list)
